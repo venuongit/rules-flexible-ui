@@ -1,6 +1,6 @@
 Project Desc 
 
-🧩 Project Overview (Business Explanation)
+Project Overview (Business Explanation)
 
 “This project was designed to help business users dynamically manage and reprioritize rules used by automation bots or decision engines. Previously, any rule change required developer intervention. So, the goal was to build a flexible UI and API system where business users themselves could reorder or edit rules and instantly reflect those updates in the backend database.”
 
@@ -12,7 +12,7 @@ Improved business agility — users can reprioritize logic based on new complian
 
 Ensured data consistency — all updates flow through controlled APIs into the database
 
-⚙️ Technical Architecture Summary
+Technical Architecture Summary
 
 “The solution consists of a full-stack web application built using .NET 8 (ASP.NET Core) for the backend API, SQLite as a lightweight database, and React (Vite) for the frontend UI. The two layers communicate through REST APIs.”
 
@@ -57,7 +57,7 @@ Automatically created (rules.db) during app startup
 
 Updates are persisted after each “Save” action from the UI
 
-🧠 Key Features Demonstrated
+Key Features Demonstrated
 
 Drag-and-Drop Reordering: Smoothly rearranges rules visually and reassigns priority numbers dynamically.
 
@@ -69,14 +69,17 @@ Auto-seeding: The system initializes with default rule sets on first run.
 
 RESTful Design: Clean separation between frontend presentation and backend logic.
 
-🧰 Tech Stack
+
+Tech Stack
 Layer	Technology
 Frontend	React (Vite) + @hello-pangea/dnd
 Backend	ASP.NET Core 8 Web API
 Database	SQLite with Entity Framework Core
 Tools	Visual Studio Code, Node.js, .NET SDK 8
 API Testing	Swagger (auto-generated docs)
-🚀 Deployment / Run Steps
+
+
+Deployment / Run Steps
 
 Backend:
 
